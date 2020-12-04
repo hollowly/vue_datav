@@ -1,14 +1,15 @@
+<!--  -->
 <template>
 	<div>
-		<router-view></router-view>
+		<h1>dataVconent</h1>
 	</div>
 </template>
 
 <script>
 export default {
-	data() {
+	data () {
 		return {
-			
+
 		}
 	},
 
@@ -17,5 +18,5 @@ export default {
 </script>
 
 <style scoped>
-@import url('./assets/css/base.css');
+
 </style>
