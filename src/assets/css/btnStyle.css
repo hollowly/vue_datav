@@ -1,0 +1,55 @@
+#btnSvg {
+	padding: none;
+	margin: none;
+	border: 1px solid  rgb(0,78,102);
+}
+
+.btn {
+  border: none;
+  position: relative;
+  background: black;
+  color: rgb(126,198,153);
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  display: block;
+  width: 132px;
+  border-radius: 7px;
+  padding: 12px 0;
+}
+.btn > span {
+  position: relative;
+  z-index: 1;
+}
+.btn > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: #275efe;
+}
+.btn > svg circle {
+  transition: 0.5s ease-out;
+}
+.btn > svg circle.top-left {
+  transform: translate(var(--spacing, -16px), var(--spacing, -40px));
+}
+.btn > svg circle.middle-bottom {
+  transform: translate(var(--spacing, 8px), var(--spacing, 40px));
+}
+.btn > svg circle.top-right {
+  transform: translate(var(--spacing, 40px), var(--spacing, -40px));
+}
+.btn > svg circle.right-bottom {
+  transform: translate(var(--spacing, 4px), var(--spacing, 40px));
+}
+.btn > svg circle.left-bottom {
+  transform: translate(var(--spacing, -40px), var(--spacing, 40px));
+}
+.btn:hover {
+  --spacing: 0;
+}

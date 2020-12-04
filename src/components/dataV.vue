@@ -1,8 +1,7 @@
 <!--  -->
 <template style='none'>
 	<div class="barbox">
-		
-	<router-link tag="button" to='/dataVflyline' >扩展飞线图</router-link>
+		<btn></btn>
 		<dv-border-box-11 class="box">
 			<!-- 上部分 -->
 			<div>
@@ -50,6 +49,7 @@
 	</div>
 </template>
 <script>
+import btn from './btn'
 	export default {
 		data() {
 			return {
@@ -229,7 +229,10 @@
 				},
 
 			}
-		}
+		},
+		components: {
+			btn,
+		},
 
 	}
 </script>
