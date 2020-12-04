@@ -1,11 +1,10 @@
 <!--  -->
 <template style='none'>
 	<div class="barbox">
-		<dv-border-box-11 class="box">
-		<router-link to='dataVflyline'>
+		<router-link to='dataVflylineChart'>
 			<btn id="btn"></btn>
 		</router-link>
-
+		<dv-border-box-11 class="box">
 			<!-- 上部分 -->
 			<div>
 				<!-- <dv-full-screen-container> -->
