@@ -256,38 +256,11 @@
 		width: 100%;
 	}
 
-	div.dv-decoration-1 {
-		width:200px;
-		height:50px;
-	}
-	div.dv-decoration-5 {
-		width:300px;
-		height:40px;
-	}
-	div.dv-decoration-9 {
-		width:150px;
-		height:150px;
-	}
-	div.dv-decoration-10 {
-		width:500px;
-		height:5px;
-		position: absolute;
-		left: 15px;
-		top: 290px;
-	}
-	div.dv-decoration-11 {
-		width:200px;
-		height:60px;
-		transform: translate(0px,10px);
-	}
-	div.dv-decoration-12 {
-		width:150px;
-		height:150px;
-	}
 
-	div.dv-decoration-9, div.dv-decoration-9, div.dv-decoration-11,div.dv-decoration-10, div.dv-decoration-12 {
-		margin-top: 50px;
-	}
+
+
+
+
 
 	/* 图表 */
 	.charts,.configBar {
