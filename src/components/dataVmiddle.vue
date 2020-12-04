@@ -82,7 +82,10 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
+	.barbox div{
+		float: left !important;
+	}
 	/* 柱状图 */
 	.configCone {
 		width:450px;

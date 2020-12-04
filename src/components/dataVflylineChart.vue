@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-	<div>
+	<div style="width:800px">
 		<dv-flyline-chart-enhanced :config="configFlyline" class="flyline" :dev="true"/>
 	</div>
 </template>

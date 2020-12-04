@@ -39,14 +39,11 @@
 </script>
 
 
-<style>
+<style scoped>
 	.barbox {
 		width: 1500px;
 		height: 1350px;
 		margin: 0 auto;
-	}
-	.barbox div{
-		float: left !important;
 	}
 	
 	.box {

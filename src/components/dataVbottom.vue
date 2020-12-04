@@ -3,6 +3,7 @@
 	<div>
 		<dv-scroll-ranking-board :config="configRanking" class="configRanking" />
 		<dataVflylineChart class="flylineChart"/>
+		<dv-water-level-pond :config="configWater" class="configWater"/>
 	</div>
 </template>
 
@@ -56,6 +57,10 @@ export default {
 					return valueStr.split('').reverse().join('')
 				}
 			},
+			configWater: {
+				data: [55],
+  			shape: 'round'
+			}
 		}
 	},
 	components: {
@@ -70,9 +75,14 @@ export default {
 .configRanking {
 		width:500px;
 		height:300px;
-		transform:translate(30px,-100px);
+		transform:translate(-930px,100px);
 	}
 	.flylineChart {
-		transform: translate(100px,-140px);
+		transform: translate(600px,-200px);
+	}
+	.configWater {
+		width:150px;
+		height:200px;
+		transform: translate(50px,-500px);
 	}
 </style>

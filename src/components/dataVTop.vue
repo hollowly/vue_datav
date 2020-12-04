@@ -107,6 +107,9 @@ export default {
 </script>
 
 <style scoped>
+	.barbox div{
+		float: left !important;
+	}
 	div.dv-decoration-1 {
 		width:200px;
 		height:50px;
