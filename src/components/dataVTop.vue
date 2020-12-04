@@ -28,7 +28,77 @@
 export default {
 	data () {
 		return {
+			option:{
+				title: {
+					text: '你的桃花运',
+					style: {
+						fill: '#fff'
+					}
+				},
+				series: [
+					{
+						type: 'gauge',
+						data: [ { name: 'itemA', value: 99 } ],
+						center: ['50%', '55%'],
+						axisLabel: {
+						formatter: '{value}%',
+						style: {
+							fill: '#fff'
+						}
+					},
+					axisTick: {
+						style: {
+							stroke: '#fff'
+						}
+					},
+						animationCurve: 'easeInOutBack'
+					}
+				]
+			},
 
+			configBar:{
+				data: [
+					{
+						name: '周口',
+						value: 55
+					},
+					{
+						name: '南阳',
+						value: 120
+					},
+					{
+						name: '西峡',
+						value: 78
+					},
+					{
+						name: '驻马店',
+						value: 66
+					},
+					{
+						name: '新乡',
+						value: 80
+					}
+				],
+				digitalFlopStyle: {
+					fontSize: 25,
+					fill: 'rgb(13,231,194)'
+				},
+				colors: ['#e062ae', '#fb7293', '#e690d1', '#32c5e9', '#96bfff'],
+				unit: '单位',
+				showValue: true
+			},
+				
+			configWater: {
+				data: [65, 45],
+				shape: 'roundRect',
+			},
+
+			configProgress: {
+				value: 66,
+				borderWidth: 5,
+				borderRadius: 10,
+				borderGap: 5
+			},
 		}
 	},
 
@@ -37,7 +107,6 @@ export default {
 </script>
 
 <style scoped>
-
 	div.dv-decoration-1 {
 		width:200px;
 		height:50px;
@@ -71,4 +140,27 @@ export default {
 		margin-top: 50px;
 	}
 
+	/* 图表 */
+	.charts,.configBar {
+		width:300px;
+		height:300px;
+	}
+	.row-data-bar {
+		width:300px;
+		height:200px;
+		margin-top: 45px;
+	}
+
+	/* 水柱图 */
+	.configWater {
+		width:150px;
+		height:200px;
+		margin:0px 20px 0px -50px;
+	}
+	/* 进度条 */
+	.configProgress {
+		width:200px;
+		height:100px;
+		margin:40px 0px 0px 0px;
+	}
 </style>
