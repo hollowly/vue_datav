@@ -1,7 +1,7 @@
 <!--  -->
 <template>
 	<div>
-		<dv-flyline-chart-enhanced :config="config" class="flyline" :dev="true"/>
+		<dv-flyline-chart-enhanced :config="configFlyline" class="flyline" :dev="true"/>
 	</div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
 	data () {
 		return {
-			config: {
+			configFlyline: {
 				points: [
 					{
 						name: '郑州',

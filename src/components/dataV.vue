@@ -45,12 +45,14 @@
 			<!-- 下部分 -->
 			<div>
 				<dv-scroll-ranking-board :config="configRanking" class="configRanking" />
+				<!-- <dataVflylineChart/> -->
 			</div>
 		</dv-border-box-11>
 	</div>
 </template>
 <script>
-import btn from './btn'
+	import btn from './btn'
+	import dataVflylineChart from './dataVflylineChart.vue'
 	export default {
 		data() {
 			return {
@@ -233,6 +235,7 @@ import btn from './btn'
 		},
 		components: {
 			btn,
+			dataVflylineChart,
 		},
 
 	}
