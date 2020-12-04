@@ -2,7 +2,7 @@
 <template style='none'>
 	<div class="barbox">
 		
-	<router-link to='/dataVflyline'>扩展飞线图</router-link>
+	<router-link tag="button" to='/dataVflyline' >扩展飞线图</router-link>
 		<dv-border-box-11 class="box">
 			<!-- 上部分 -->
 			<div>
@@ -216,7 +216,7 @@
 				],
 					unit: '单位',
 					valueFormatter ({ value }) {
-						console.warn(arguments)
+						// console.warn(arguments)
 						const reverseNumber = (value + '').split('').reverse()
 						let valueStr = ''
 						while (reverseNumber.length) {
