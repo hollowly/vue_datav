@@ -2,7 +2,7 @@
 <template style='none'>
 	<div class="barbox">
 		
-	<router-link to='/dataVcontent'>所有归hollow所有</router-link>
+	<router-link to='/dataVflyline'>扩展飞线图</router-link>
 		<dv-border-box-11 class="box">
 			<!-- 上部分 -->
 			<div>

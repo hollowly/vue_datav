@@ -7,3 +7,8 @@ body {
 	color:rgb(126,198,153);
 	background: black;
 }
+
+a,a:hover,a:active,a:visited,a:link {
+	text-decoration: none;
+	color: white;
+}
