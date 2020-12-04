@@ -3,7 +3,10 @@
 	<div>
 		<dv-scroll-ranking-board :config="configRanking" class="configRanking" />
 		<dataVflylineChart class="flylineChart"/>
-		<dv-water-level-pond :config="configWater" class="configWater"/>
+			<dv-water-level-pond :config="configWater" class="configWater">
+				<ellipse cx="100" cy="100" rx="100" ry="100" 
+				stroke="url(#water-level-pond-262616dca24e4bc3b8bc45f428b42d45)"></ellipse>
+			</dv-water-level-pond>	
 	</div>
 </template>
 
@@ -81,8 +84,8 @@ export default {
 		transform: translate(600px,-200px);
 	}
 	.configWater {
-		width:150px;
+		width:200px;
 		height:200px;
-		transform: translate(50px,-500px);
+		transform: translate(120px,-500px);
 	}
 </style>
