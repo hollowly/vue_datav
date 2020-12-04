@@ -174,7 +174,7 @@ export default {
 <style scoped>
 .flyline {
 	width: 800px;
-	height: 700px;
+	height: 660px;
 	background: url('../assets/img/map.jpg')!important;
 }
 </style>

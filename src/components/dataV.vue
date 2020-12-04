@@ -45,7 +45,7 @@
 			<!-- 下部分 -->
 			<div>
 				<dv-scroll-ranking-board :config="configRanking" class="configRanking" />
-				<!-- <dataVflylineChart/> -->
+				<dataVflylineChart class="flylineChart"/>
 			</div>
 		</dv-border-box-11>
 	</div>
@@ -245,7 +245,7 @@
 <style scoped>
 	.barbox {
 		width: 1500px;
-		height: 1300px;
+		height: 1350px;
 		margin: 0 auto;
 	}
 	.barbox div{
@@ -328,6 +328,9 @@
 	.configRanking {
 		width:500px;
 		height:300px;
-		transform:translate(-950px,100px);
+		transform:translate(30px,-100px);
+	}
+	.flylineChart {
+		transform: translate(100px,-140px);
 	}
 </style>
