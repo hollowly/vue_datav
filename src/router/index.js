@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 const dataV = () =>import('../components/dataV')
-const dataVconent = () =>import('../components/dataVconent')
+const dataVflyline = () =>import('../components/dataVflyline')
 
 Vue.use(VueRouter)
 
@@ -16,8 +16,8 @@ const routes = [
 		component:dataV
 	},
 	{
-		path:'/dataVconent',
-		component:dataVconent
+		path:'/dataVflyline',
+		component:dataVflyline
 	}
 ]
 
