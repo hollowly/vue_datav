@@ -1,8 +1,11 @@
 <!--  -->
 <template style='none'>
 	<div class="barbox">
-		<btn></btn>
 		<dv-border-box-11 class="box">
+		<router-link to='dataVflyline'>
+			<btn id="btn"></btn>
+		</router-link>
+
 			<!-- 上部分 -->
 			<div>
 				<!-- <dv-full-screen-container> -->
@@ -44,7 +47,6 @@
 			<div>
 				<dv-scroll-ranking-board :config="configRanking" class="configRanking" />
 			</div>
-			
 		</dv-border-box-11>
 	</div>
 </template>
